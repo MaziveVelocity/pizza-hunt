@@ -4,13 +4,15 @@
   "private": true,
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.13.10"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,8 @@
     "url": "https://github.com/MaziveVelocity/pizza-hunt/issues"
   },
   "homepage": "https://github.com/MaziveVelocity/pizza-hunt#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
 }
